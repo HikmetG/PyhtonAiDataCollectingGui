@@ -7,7 +7,7 @@ import sqlite3
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
-cred = credentials.Certificate(r"C:\Users\hikme\Desktop\PyhtonApp\pyhtontrafficapp-firebase-adminsdk-kpb5x-2deab76f2d.json")
+cred = credentials.Certificate("_PATH_")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
